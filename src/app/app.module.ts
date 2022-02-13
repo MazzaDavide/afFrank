@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { FotoComponent } from './components/foto/foto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContattamiComponent } from './components/contattami/contattami.component';
+import { ScrollCardsComponent } from './components/scroll-cards/scroll-cards.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContattamiComponent } from './components/contattami/contattami.componen
     HeaderComponent,
     PlayervideoComponent,
     FotoComponent,
-    ContattamiComponent
+    ContattamiComponent,
+    ScrollCardsComponent
   ],
   imports: [
     BrowserModule,

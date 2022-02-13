@@ -86,20 +86,6 @@
                 </div>
             </div> 
         </div>-->
-        <div class="container">
-            <h1>GUARDA ANCHE</h1>
-            <div class="scrollable-card-grid">
-              <div *ngFor="let video of AllVideos">
-                  <div class="scrollable-card" (click)="GetSrc(video)" style="background: url({{video.src}}); background-size: cover; background-repeat: no-repeat;">
-                    <div class="card-header">
-                        <h2>{{video.title}}</h2>
-                      </div>
-                      <div class="card-body">
-                          
-                      </div>
-                  </div>
-              </div>
-            </div>
-        </div> 
+         <app-scroll-cards></app-scroll-cards>
     </div>
 </body>
