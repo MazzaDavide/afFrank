@@ -119,12 +119,13 @@ body{
   }
   .streaming-container{
     width:100%;
-    height: 80rem;
+    height: 100vh;
     max-width:1000px;
     margin:0 auto 40px auto;
     position:relative;
-    img {
+    video {
       width:100%;
+      height: 100%;
     }
     &:after{
       content:"";
