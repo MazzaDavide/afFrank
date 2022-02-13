@@ -1,0 +1,19 @@
+<!-- <div class="row" style="margin: 5%;">
+    <div class="col">
+        <div class="container animate__animated animate__fadeInLeft">
+            <div *ngFor="let foto of AllFoto" class="card">
+                <img src="{{foto}}" class="foto" (click)=Open();>
+            </div>
+            
+        </div>
+
+    </div>
+</div> -->
+
+<main class="content">
+    <div *ngFor="let foto of AllFoto">
+        <div class="card" style="background: url({{foto}}); background-size: contain; background-repeat: no-repeat;">
+            
+        </div>
+    </div>
+</main>

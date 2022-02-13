@@ -1,0 +1,37 @@
+<header class="primary-header flex">
+  <div class="d-flex">
+    <a class="navbar-brand nav-item" routerLink="/home" routerLinkActive="active"><img class="link" src="https://affrankstorage.blob.core.windows.net/contsinerfrank/images/firma.png"></a>
+  </div >
+  <button *ngIf="isopen === false" class="mobile-nav-toggle" (click)="open()">
+    <span class="sr-only"><i class="bi bi-list"></i></span>
+  </button>
+  <button *ngIf="isopen === true" class="mobile-nav-toggle" (click)="open()">
+    <span class="sr-only"><i class="bi bi-x"></i></span>
+  </button>
+
+  <nav class="navbar navbar-expand" >
+    <div  class="container-fluid" >
+
+      <div class="" id="navbarSupportedContent">
+        <ul id="primary-navigation" data-visible="false" class="navbar-nav primary-navigation flex" [ngClass]="{'closed': isopen === false}">
+
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/portfolio" routerLinkActive="active" style="margin-right: 6rem;">VIDEO</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/foto" routerLinkActive="active" style="margin-right: 6rem;">FOTO</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" routerLink="/contattami" routerLinkActive="active" style="margin-right: 6rem;">CONTATTAMI</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+</header>

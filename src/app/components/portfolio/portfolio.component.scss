@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;  
+}
+
+nav{
+    //display: grid;
+    //grid-template-columns: 50% 20% 20% 10%;
+    min-height: 10vh;
+    color: white;
+    margin: 1rem;
+    align-items: center;
+    z-index: 3;
+    border-bottom: solid white;
+}
+
+.nav-item{
+    margin-right: 5rem;
+    z-index: 3;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    text-align: center;
+}
+
+.card-img-top{
+    padding: 4rem;
+}
+.card-title{
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 400px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+        text-align: center;
+    }
+    .card-img-top{
+        padding: 0;
+    }
+}
+.card{
+    padding: 2rem;
+    width: 100%;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+
+.cerca{
+    margin: 1rem;
+    flex: 1 auto;
+}
+
+.btn{
+    flex: 1 auto;
+    margin:5px;
+    padding:10px 25px;
+    text-align:center;
+    background:#eee;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.gradient{
+    align-items: center;
+    text-align: center;
+}
+
+.gradient .btn{ /* general */
+    background:transparent;
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    color:#fff;
+}
+  
+.gradient .btn-1{
+    color: rgba(255,255,255,0.8);
+    border: 1px solid rgba(255,255,255,0.3);
+    background-image: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,.9), rgba(255,255,255,0), rgba(255,255,255,0)); 
+}
+.gradient .btn-1:hover{
+    border-color:transparent;
+    color:#161616;
+    background-position: 99% 50%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

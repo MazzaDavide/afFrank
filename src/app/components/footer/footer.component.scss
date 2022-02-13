@@ -1,0 +1,44 @@
+.footer {
+    background: black;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .footer{
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.8rem;
+    }
+}
+
+.logo {
+    height: 5rem;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.social .bi {
+    color: white;
+}
+.social .bi:hover {
+    cursor: pointer;
+    color: rgb(216, 216, 216);
+}
+.social i {
+    font-size: 1.5rem;
+}
+
+li:hover{
+    text-decoration: none;
+}

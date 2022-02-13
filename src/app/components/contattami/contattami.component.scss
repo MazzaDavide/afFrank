@@ -1,0 +1,92 @@
+*{
+    display: block;
+    justify-content: center;
+    font-family: Georgia, serif;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+.content{
+    margin: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+h4{
+    justify-content: center;
+    align-content: center;
+    left: 2rem;
+    color: whitesmoke;
+}
+
+textarea{
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 20px 0 rgba(202, 197, 197, 0.43);
+    &:focus{
+        background-color: black;
+        color: white;
+    }
+}
+
+.card{
+    width: 100%;
+    justify-content: center;
+    background: none;
+    
+}
+
+.invia{
+    z-index: 10;
+}
+
+input{
+    background-color: black;
+    box-shadow: 0 10px 20px 0 rgba(202, 197, 197, 0.43);
+}
+
+label{
+    color: white;
+}
+label:focus{
+    color: white;
+}
+
+input:focus{
+    background-color: black;
+}
+
+.instagram{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+    color: white;
+}
+
+@media (max-width: 1024px){
+    .content{
+        grid-template-columns: 100%;
+    }
+}
+
+.contatti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
