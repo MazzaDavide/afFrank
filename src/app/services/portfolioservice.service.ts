@@ -39,14 +39,6 @@ export class PortfolioserviceService {
       direct: "a.f.Frank"
     },
     {
-      title: "Manfro feat. Pyt - BLOCCO",
-      description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      src: "assets/images/Blocco.jpg",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/BLOCCO feat. Pyt.mp4",
-      date: 2021,
-      direct: "a.f.Frank"
-    },
-    {
       title: "Manfro - Est99",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
       src: "assets/images/Est99.jpg",
