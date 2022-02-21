@@ -23,6 +23,16 @@ body{
   display: flex;
 }
 
+a{
+  color: #454545;
+  text-decoration: none;
+}
+
+a:hover, h5:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
 .video-page{
   width:100%;
   margin:auto;
@@ -106,7 +116,7 @@ body{
             display:flex;
             align-items:flex-end;
             color: #454545;
-            h4, h5 {
+            h4, h5{
               margin:0;
               font-size:18px
             }
