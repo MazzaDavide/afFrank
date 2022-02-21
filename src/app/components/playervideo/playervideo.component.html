@@ -35,7 +35,7 @@
                 </div>
                 <div class="header-right col">
                     <h1>{{this.portfolioservice.card.title}}</h1>
-                    <h2>{{this.portfolioservice.card.date}}<span>{{duration}}</span></h2>
+                    <h2>{{this.portfolioservice.card.date}}<span>2min</span></h2>
                     <p>Descrizione del video</p>
                     <div class="rating">{{this.portfolioservice.card.votes}}</div>
                     <!-- <div class="vote" *ngFor="let num of voteNums">
@@ -70,8 +70,7 @@
         </div>
         <div class="row">
             <div class="streaming-container">
-                <video controls muted>
-                    <source [src]=this.portfolioservice.card.videosrc type="video/mp4">
+                <video [src]=this.portfolioservice.card.videosrc controls muted>
                 </video>
             </div>
         </div>

@@ -25,20 +25,11 @@ export class PlayervideoComponent implements OnInit {
   GetSrc(card: any){
     this.portfolioservice.GetSrc(card);
     localStorage.setItem("card", card);
-    this.getDuration(card.videosrc)
   }
 
   vota(){
     this.portfolioservice.card.votes.push(this.rating);
     console.log("rating: ", this.rating)
   }
-
-  duration!: any
-
-  getDuration(e:any){
-    this.duration = e.target.duration
-    console.log("duration", this.duration)
-  }
-
-
+  
 }

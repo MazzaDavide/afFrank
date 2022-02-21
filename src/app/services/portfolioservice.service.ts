@@ -14,7 +14,7 @@ export class PortfolioserviceService {
       title: "22simba - PER I ROIZ",
       description: "Questo video è incredibile",
       src: "assets/images/22simba-PERIROIZ.jpg",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba - PER I ROIZ.webm",
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba - PER I ROIZ (1).mp4",
       date: 2021,
       direct: "a.f.Frank",
       colorist: "https://www.instagram.com/nesimov_/",
