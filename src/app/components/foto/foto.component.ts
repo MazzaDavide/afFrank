@@ -33,7 +33,6 @@ export class FotoComponent implements OnInit {
   // }
 
   AllFoto = [
-    "https://affrankstorage.blob.core.windows.net/contsinerfrank/images/work/Blocco def senza titolo.jpg",
     "https://affrankstorage.blob.core.windows.net/contsinerfrank/images/work/dreffunny_1.jpg",
     "https://affrankstorage.blob.core.windows.net/contsinerfrank/images/work/dreffunny_2.jpg",
     "https://affrankstorage.blob.core.windows.net/contsinerfrank/images/work/dreffunny_3.jpg",
