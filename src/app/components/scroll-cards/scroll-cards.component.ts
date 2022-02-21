@@ -17,7 +17,11 @@ export class ScrollCardsComponent implements OnInit {
   GetSrc(card: any){
     this.portfolioservice.GetSrc(card);
     localStorage.setItem("card", card);
-    window.scroll(0,0);
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 
   AllVideos!: any;
