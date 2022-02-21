@@ -70,7 +70,9 @@
         </div>
         <div class="row">
             <div class="streaming-container">
-                <video [src]=this.portfolioservice.card.videosrc controls muted></video>
+                <video controls muted>
+                    <source [src]=this.portfolioservice.card.videosrc type="video/mp4">
+                </video>
             </div>
         </div>
 
