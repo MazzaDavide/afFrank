@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { window } from 'rxjs';
 import { PortfolioserviceService } from 'src/app/services/portfolioservice.service';
 
 @Component({
@@ -24,12 +23,11 @@ export class PlayervideoComponent implements OnInit {
 
   GetSrc(card: any){
     this.portfolioservice.GetSrc(card);
-    localStorage.setItem("card", card);
   }
 
   vota(){
     this.portfolioservice.card.votes.push(this.rating);
     console.log("rating: ", this.rating)
   }
-  
+
 }

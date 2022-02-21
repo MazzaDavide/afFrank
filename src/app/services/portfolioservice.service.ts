@@ -58,7 +58,7 @@ export class PortfolioserviceService {
       title: "PYT - STELLA BLU",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
       src: "assets/images/PYT-STELLA BLU.jpg",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/PYT - STELLA BLU (prod. Garelli, YaluDream) [Official Video].webm",
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/PYT - STELLA BLU (prod. Garelli, YaluDream).mp4",
       date: 2021,
       direct: "a.f.Frank e Brandon Bonato",
       colorist: "https://www.instagram.com/nesimov_/",
