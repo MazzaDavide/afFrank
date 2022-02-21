@@ -8,26 +8,11 @@
     text-align: center;  
 }
 
-nav{
-    //display: grid;
-    //grid-template-columns: 50% 20% 20% 10%;
-    min-height: 10vh;
-    color: white;
-    margin: 1rem;
-    align-items: center;
-    z-index: 3;
-    border-bottom: solid white;
-}
-
-.nav-item{
-    margin-right: 5rem;
-    z-index: 3;
-}
 .container{
+    max-width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 1rem;
-    text-align: center;
 }
 
 .card-img-top{

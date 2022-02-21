@@ -1,23 +1,15 @@
 <body>
-  <div class="row">
-    <div class="col">
-      <div class="container  animate__animated animate__fadeInLeft">
-        <div class="card mb-3" *ngFor="let card of AllVideos"
-          style="background-color: transparent; border-style: none;">
-          <img src="{{card.src}}" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">{{card.title}}</h5>
-             <!-- <p class="card-text">{{card.description}}</p> -->
-            <section class="gradient">
-              <p *ngIf="guarda == false" class="btn btn-1" routerLink="/playervideo" routerLinkActive="active"
-                (click)="GetSrc(card)">GUARDA ORA <i class="bi bi-play"></i></p>
-            </section>
-          </div>
-        </div>
+  <div class="container  animate__animated animate__fadeInLeft">
+    <div class="card mb-3" *ngFor="let card of AllVideos" style="background-color: transparent; border-style: none;">
+      <img src="{{card.src}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.title}}</h5>
+        <!-- <p class="card-text">{{card.description}}</p> -->
+        <section class="gradient">
+          <p *ngIf="guarda == false" class="btn btn-1" routerLink="/playervideo" routerLinkActive="active"
+            (click)="GetSrc(card)">GUARDA ORA <i class="bi bi-play"></i></p>
+        </section>
       </div>
     </div>
   </div>
-
-
 </body>
-

@@ -11,6 +11,7 @@ export class ScrollCardsComponent implements OnInit {
   constructor(private portfolioservice: PortfolioserviceService) { }
 
   ngOnInit(): void {
+    this.AllVideos = this.portfolioservice.AllVideos
   }
 
   GetSrc(card: any){
@@ -18,5 +19,5 @@ export class ScrollCardsComponent implements OnInit {
     
   }
 
-  AllVideos =  this.portfolioservice.AllVideos
+  AllVideos!: any;
 }

@@ -31,31 +31,46 @@
         <div class="video-page-header">
             <div class="video-description row">
                 <div class="header-left col">
-                    <img [src]=this.portfolioservice.videoimg>
+                    <img [src]=this.portfolioservice.card.src>
                 </div>
                 <div class="header-right col">
-                    <h1>{{this.portfolioservice.title}}</h1>
-                    <h2>{{this.portfolioservice.date}}<span>2h05</span></h2>
+                    <h1>{{this.portfolioservice.card.title}}</h1>
+                    <h2>{{this.portfolioservice.card.date}}<span>{{duration}}</span></h2>
                     <p>Descrizione del video</p>
-                    <div class="rating">8.9</div>
+                    <div class="rating">{{this.portfolioservice.card.votes}}</div>
+                    <!-- <div class="vote" *ngFor="let num of voteNums">
+                        <div>
+                            <button class="btn" (click)="vota()" style="padding: 0; color: white;">{{num}}</button>
+                        </div>
+                    </div> -->
+                    <!-- <label for="rating" class="form-label">Vota</label> -->
+                    <!-- <div class="mb-3 col-10 col-sm-11" style="display: flex;">
+                        <input type="number" max="10" min="1" class="form-control has-validation py-3"
+                            [(ngModel)]="rating" style="width: fit-content;">
+                            <button class="btn" style="color: white;" (click)="vota()">Vota</button>
+                    </div> -->
                     <div class='info'>
                         <h4>Regia e montaggio</h4>
-                        <h5>{{this.portfolioservice.direct}}</h5>
+                        <h5>{{this.portfolioservice.card.direct}}</h5>
                     </div>
-                    <div class='info' *ngIf="this.portfolioservice.colorist">
+                    <div class='info' *ngIf="this.portfolioservice.card.colorist">
                         <h4>Colorist: </h4>
-                        <a href="{{this.portfolioservice.colorist}}"><h5>{{this.portfolioservice.colorist}}</h5></a>
+                        <a href="{{this.portfolioservice.card.colorist}}">
+                            <h5>{{this.portfolioservice.card.colorist}}</h5>
+                        </a>
                     </div>
-                    <div class='info' *ngIf="this.portfolioservice.others">
+                    <div class='info' *ngIf="this.portfolioservice.card.others">
                         <h4>3D Artist:</h4>
-                        <a href="{{this.portfolioservice.others}}"><h5>{{this.portfolioservice.others}}</h5></a>
+                        <a href="{{this.portfolioservice.card.others}}">
+                            <h5>{{this.portfolioservice.card.others}}</h5>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="streaming-container">
-                <video [src]=this.portfolioservice.vsrc controls muted ></video>
+                <video [src]=this.portfolioservice.card.videosrc controls muted></video>
             </div>
         </div>
 
@@ -86,6 +101,6 @@
                 </div>
             </div> 
         </div>-->
-         <app-scroll-cards></app-scroll-cards>
+        <app-scroll-cards></app-scroll-cards>
     </div>
 </body>

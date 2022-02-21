@@ -39,6 +39,7 @@ export class PortfolioComponent implements OnInit {
   GetSrc(card: any){
     this.portfolioservice.GetSrc(card);
     this.guarda = true;
+    localStorage.setItem("card", card);
   }
 
   // path = require('path');
