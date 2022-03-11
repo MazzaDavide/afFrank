@@ -25,7 +25,7 @@ export class PortfolioserviceService {
       title: "22simba - VENTIDUE",
       description: "Questo video è incredibile",
       src: "assets/images/Ventidue - Simba.png",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba%20-%20PER%20I%20ROIZ%20(1).mp4",
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba%20-%20VENTIDUE%20(1).mp4",
       date: 2022,
       direct: "a.f.Frank",
       colorist: "https://www.instagram.com/nesimov_/",
