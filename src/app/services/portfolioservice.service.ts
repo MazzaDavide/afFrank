@@ -11,11 +11,22 @@ export class PortfolioserviceService {
 
   AllVideos = [
     {
-      title: "22simba - PER I ROIZ",
+      title: "Karim - Chronicles",
+      description: "Questo video è incredibile",
+      src: "assets/images/Chronicles.png",
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/K4rim%20-%20Chronicles%20%231%20(prod.%20Rich%20Polo).mp4",
+      date: 2022,
+      direct: "a.f.Frank e Brandon Bonato",
+      trailer: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/Karim%20instagram.mp4",
+      votes: [],
+      comments: []
+    },
+    {
+      title: "22simba - VENTIDUE",
       description: "Questo video è incredibile",
       src: "assets/images/Ventidue - Simba.png",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba%20-%20VENTIDUE.mp4",
-      date: 2021,
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/22simba%20-%20PER%20I%20ROIZ%20(1).mp4",
+      date: 2022,
       direct: "a.f.Frank",
       colorist: "https://www.instagram.com/nesimov_/",
       others: "https://www.instagram.com/borrrts/",
