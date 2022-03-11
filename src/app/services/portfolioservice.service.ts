@@ -14,7 +14,7 @@ export class PortfolioserviceService {
       title: "Karim - Chronicles",
       description: "Questo video è incredibile",
       src: "assets/images/Chronicles.png",
-      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/K4rim%20-%20Chronicles%20%231%20(prod.%20Rich%20Polo).mp4",
+      videosrc: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/K4rim%20-%20Chronicles%20%231%20(prod.%20Rich%20Polo)%20(1).mp4",
       date: 2022,
       direct: "a.f.Frank e Brandon Bonato",
       trailer: "https://affrankstorage.blob.core.windows.net/contsinerfrank/videos/Karim%20instagram.mp4",
